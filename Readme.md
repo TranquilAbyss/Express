@@ -30,3 +30,12 @@ http://expressjs.com/en/starter/hello-world.html
 Link `localhost:3000`
 
 Now you have a starter API server!
+
+### Adding a Database
+Database server are seperate software servers which run on their own ports. They can be setup on seperate computers and conneceted to the app over a network, preferably over a private network to keep data transfer secure.
+1. Download and install your favorite relational database (examples: postgres or mysql)
+1. Get and install a npm database driver for your favorite database type. This is a library that helps with managing database connections and making requests.
+
+Exercise:
+1. Send a test connection from the server to the database to get the version. Then output it serverside with `console.log()`.
+1. Return the database version retrieved from the database to the client as a Get Response endpoint.
